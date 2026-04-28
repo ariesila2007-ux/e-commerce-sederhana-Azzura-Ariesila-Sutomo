@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OMOOOMIUW CRAFT</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #ffe6f0, #fff5cc, #ffd6eb);
+      color: #333;
+    }
+
+    /* NAVBAR */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #ff99c8;
+      padding: 15px 20px;
+    }
+
+    .navbar h1 {
+      margin: 0;
+      color: white;
+      font-size: 20px;
+    }
+
+    .nav-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    /* HERO */
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero h2 {
+      font-size: 28px;
+      color: #d63384;
+    }
+
+    /* CATEGORY */
+    .categories {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+
+    .cat {
+      background: #ffb3d9;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    /* PRODUCTS */
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+
+    .card {
+      background: #fff0f6;
+      border-radius: 15px;
+      padding: 10px;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .card img {
+      width: 100%;
+      height: 120px;
+      object-fit: contain;
+      border-radius: 10px;
+    }
+
+    .card h4 {
+      margin: 10px 0 5px;
+    }
+
+    .btn {
+      background: #ff66a3;
+      color: white;
+      border: none;
+      padding: 5px 10px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    /* CART */
+    .cart {
+      position: fixed;
+      right: 10px;
+      bottom: 10px;
+      background: #ff66a3;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+    .footer {
+  background: #ff99c8;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.copy {
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.8;
+}
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <h1>OMOOOMIUW</h1>
+    <div class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Produk</a>
+      <a href="#">Kategori</a>
+      <a href="#">Keranjang</a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <div class="hero">
+    <h2>Welcome to OMOOOMIUW CRAFT💕</h2>
+    <p>Tempat belanja keychain, bagcharm, dan aksesoris lainnya!</p>
+  </div>
+
+  <!-- CATEGORY -->
+  <div class="categories">
+    <div class="cat">Bagcharm</div>
+    <div class="cat">Keychain</div>
+    <div class="cat">Gelang</div>
+  </div>
+
+  <!-- PRODUCTS -->
+  <div class="products">
+
+    <div class="card">
+      <img src="bagcharmmacrameblue.jpeg" />
+      <h4>Bagcharm 3 Macrame Blue</h4>
+      <p>Rp25.000</p>
+      <button class="btn">Add</button>
+    </div>
+
+    <div class="card">
+      <img src="bagcharmmacramepink.jpeg" />
+      <h4>Bagcharm 3 Macrame Pink</h4>
+      <p>Rp25.000</p>
+      <button class="btn">Add</button>
+    </div>
+
+    <div class="card">
+      <img src="keychainwhite.jpeg" />
+      <h4>Keychain White</h4>
+      <p>Rp10.000</p>
+      <button class="btn">Add</button>
+    </div>
+
+    <div class="card">
+      <img src="keychainpink.jpeg" />
+      <h4>Keychain Pink</h4>
+      <p>Rp10.000</p>
+      <button class="btn">Add</button>
+    </div>
+
+    <div class="card">
+      <img src="keychainlilac.jpeg" />
+      <h4>Keychain Lilac</h4>
+      <p>Rp10.000</p>
+      <button class="btn">Add</button>
+    </div>
+
+    <div class="card">
+      <img src="gelangwarna.jpeg" />
+      <h4>Gelang Manik Warna</h4>
+      <p>Rp5.000</p>
+      <button class="btn">Add</button>
+    </div>
+
+  </div>
+
+  <!-- CART -->
+  <div class="cart">
+    🛒 Keranjang (0)
+  </div>
+
+  <footer class="footer">
+  <h3>Contact Us 💌</h3>
+  <p>Email: ariesila2007@gmail.com</p>
+  <p>Instagram: @omooomiuw</p>
+  <p>WhatsApp: 0812-1454-3044</p>
+  <p class="copy">© 2026 OMOOOMIUW CRAFT</p>
+</footer>
+</body>
+</html>

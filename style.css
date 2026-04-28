@@ -1,0 +1,35 @@
+body {
+  font-family: Arial;
+  background: #fff0f5;
+  margin: 0;
+}
+
+nav {
+  background: #ff9eb5;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.card {
+  background: white;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
